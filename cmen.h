@@ -5,13 +5,14 @@
 #include <nRF24L01.h>
 #include <RF24.h>
 
-namespace Setup {
+namespace Setup
+{
   const uint8_t addresses[][6] = {"1CMEN", "2CMEN", "3CMEN", "4CMEN", "5CMEN", "6CMEN"};
 }
 
 extern int CE_pin;
 extern int CSN_pin;
-//extern int address_index;
+// extern int address_index;
 extern bool debug;
 
 // Prototypes
